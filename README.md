@@ -115,4 +115,19 @@ INSERT INTO sgsecurity.sys_user_role (role_id) VALUES
 	 (2),
 	 (2);
 ```
+## 各个接口图片
+### 接口1.http://localhost:8888/user/login
+![image](https://github.com/xiaoguzai/spring-security/assets/31726901/fc1ae5c1-7d2e-4a86-9b3c-264fd6fb7e77)
+![image](https://github.com/xiaoguzai/spring-security/assets/31726901/f9a93633-4a64-445b-b64b-a00756199eac)
+### 接口2.http://localhost:8888/hello 注意接口1/user/login得到的接口放在hello接口的headers中
+![image](https://github.com/xiaoguzai/spring-security/assets/31726901/d36e3319-c4ff-407a-a3f8-ffb123ddad9c)
+![image](https://github.com/xiaoguzai/spring-security/assets/31726901/724ed6c8-6930-4c6d-861e-700ab08291ef)
+### 接口3.http://localhost:8888/testCors 注意接口1/user/login得到的接口放在testCors接口的headers中
+![image](https://github.com/xiaoguzai/spring-security/assets/31726901/a037dd6c-db16-48c3-b726-3d4ce5d3fb8e)
+![image](https://github.com/xiaoguzai/spring-security/assets/31726901/f7112bc2-9ea3-480f-81ab-f9c40c6fa3b8)
+### 接口4.http://localhost:8888/user/logout 注意接口1/user/login得到的接口放在/user/logout接口的headers中
+![image](https://github.com/xiaoguzai/spring-security/assets/31726901/971e05ec-33bd-4c78-801a-49e64305caa8)
+![image](https://github.com/xiaoguzai/spring-security/assets/31726901/43819273-5050-47a0-b738-fdde2ccb068d)
+
+
 ## 注意数据库的表以及端口号根据程序进行响应的调整！！！
